@@ -20,7 +20,7 @@ Press the » 🎛 Commands button to view the full list of the commands of the b
             [
                 [
                     InlineKeyboardButton(
-                        "𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀", url="")
+                        "𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀", url="https://telegra.ph/TELEGRAM-GROUP-MUSIC-BOT-04-09")
                   ],[
                     InlineKeyboardButton(
                         "𝗚𝗿𝗼𝘂𝗽", url="https://t.me/maharashtrafriendcircle"
