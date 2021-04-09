@@ -106,8 +106,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔊 Channel",
-                        url="https://t.me/Infinity_BOTs")
+                        text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹",
+                        url="https://t.me/chocolatyqueenvcplayer")
                    
                 ]
             ]
@@ -124,7 +124,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/a4fa687ed647cfef52402.jpg"
+        thumb_name = "https://telegra.ph/file/7603207ad51c71eceb2b7.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -132,8 +132,8 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🔊 Channel",
-                            url=f"https://t.me/Infinity_BOTs")
+                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹",
+                            url=f"https://t.me/chocolatyqueenvcplayer")
 
                     ]
                 ]
@@ -169,7 +169,7 @@ async def play(_, message: Message):
                 )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/a4fa687ed647cfef52402.jpg"
+            thumb_name = "https://telegra.ph/file/7603207ad51c71eceb2b7.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -186,7 +186,7 @@ async def play(_, message: Message):
         await generate_cover(requested_by, title, views, duration, thumbnail)     
         file_path = await converter.convert(youtube.download(url))
     else:
-        await lel.edit("🔎 **Finding** the song...")
+        await lel.edit("🥳 **Finding** the song...")
         sender_id = message.from_user.id
         user_id = message.from_user.id
         sender_name = message.from_user.first_name
@@ -246,7 +246,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via DaisyX Music 😜".format(
+        caption="▶️ **Playing** here the song requested by {} via Sangram Group Music Player😜".format(
         message.from_user.mention()
         ),
     )
