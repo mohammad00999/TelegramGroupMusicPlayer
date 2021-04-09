@@ -1,9 +1,9 @@
-<h2 align="centre">Music Play Bot 🎵</h2>
+<h2 align="centre">Telegram Group Music Play Bot 🎶</h2>
 
 ### Here the advanced branch with more features 🙂
 
 <p align="center">
-  <img src="https://telegra.ph/file/e1d2e60a756b2cda8a058.jpg">
+  <img src="https://telegra.ph/file/bbee9e1adf7c1f174eb3b.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
@@ -13,7 +13,7 @@
 - Python 3.7+
 - [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 
-### Commands 🛠
+### Commands
 #### For all in group
 - `/play` - reply to youtube url or song file to play song
 - `/ytp <song name>` - play song without youtube url or song file (best method)
@@ -34,8 +34,3 @@ Get pyrogram STRING_NAME from here ⬇️
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@SpEcHiDe/GenerateStringSession)
 
-### Credits
-- [ImJanindu](https://github.com/Imjanindu): Dev
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo](https://github.com/suprojects/CallsMusic)
-- [Infinity BOTs](https://t.me/Infinity_BOTs)
