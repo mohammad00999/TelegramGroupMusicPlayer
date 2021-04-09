@@ -9,27 +9,28 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
+        f"""**✨ Welcome,I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+[Groups Music](https://t.me/sangramghangale). is a project designed for play, as simple as possible, music in your groups through the new voice chats introduced by Telegram.
 
-Add me to your group and play music freely!**
+❓How to use it?
+Press the » 🎛 Commands button to view the full list of the commands of the bot!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/ImJanindu/GroupMusicBot")
+                        "𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀", url="")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "𝗚𝗿𝗼𝘂𝗽", url="https://t.me/maharashtrafriendcircle"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url="https://t.me/chocolatyqueenvcplayer"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "𝗔𝗱𝗱 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/ChocolateQueenBot?startgroup=true"
                     )]
             ]
         ),
@@ -38,12 +39,12 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online ✅**""",
+      await message.reply_text("""**Group Music Player Online**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url="https://t.me/chocolatyqueenvcplayer")
                 ]
             ]
         )
