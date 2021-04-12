@@ -2,23 +2,17 @@ from os import getenv
 
 from dotenv import load_dotenv
 
-default_bot_token = "1657468666:AAEDDax6PsuDnXHzLprpf95MvF5tzDD0rtg"
-default_owner_id = 1476130628
-default_owner_hash = "59940cc8cba6160443c26cf682ba6885"
-default_owner_hashid = 3864646
-default_owner_string = "BAAyWLxI5dl9OLh4t1CrgsDUztatlFlvPuh6IiunNbPJuDDjKRgwkOoBelbXrb3i3IU6ULwNNUcB89aS3Op711HRx4RaDrx9-m_vnB75uH1Xa48pYUc0Hek-hjbRR9zcl-c9ONY-6t5j-vs0XWPqAXFNyW1YkEPv7Xe9vw5L4-WcI5V62wql78g3eTQqsKALN5dLXFKncttFulUoEyb5FyezOrhiBWnsbaBj0ECmm2hFgpEUwvAHC8YYtnfB6OXZ-tnnaK21piy6XEAnrrl9Z0c_2xfOfdochYVqqvf40mpySvhqMFqKCb6jz0fGCNii9WiVTWNmVXSwStMl1EWxnwoLX7J4gAA"
-
 load_dotenv()
 
-SESSION_NAME = getenv("SESSION_NAME", default_owner_string)
-BOT_TOKEN = getenv("BOT_TOKEN", default_bot_token)
-BOT_NAME = getenv("BOT_NAME")
+SESSION_NAME = "BACMzxTIYDepsMGA5J5Eqe_W6GbVSFH9R78B4sqP0no8PgFhUGTKbQnoKhMdPSc8VA4FgIL6ji2gPcGkHRUtEpW4aph6mDPk5OO2W-UvSo4qc-54z3GB2-8kqGKeoMXMLRC-MQVSHpOdG-aAL1rZ0lTE5KlmcjsllWRw72vwrXtizUP8Ylj-WTTS-SpQ1nWrtdwolyqUZ9BjRzYILFYzK2vgv8D1qQPQITeKE5tPMClObDd1vtuUg5v6ih-G47e0WLZ2oBQetWryQY37pl-1e6MeeX0OkUZyyjKQh320WtWbomEVLcd-nWB1ptTIjq1WkHUGa4fE1XtNooc1juv9NxvMWdduGgA"
+BOT_TOKEN = "1732667279:AAGRH0hxRh_q10jaO7HKbFsv_a283nl4CEU" 
+BOT_NAME = "SylixmusicPlayerbot"
 
-API_ID = int(getenv("API_ID", default_owner_hashid))
-API_HASH = getenv("API_HASH", default_owner_hash)
+API_ID = "3841155"
+API_HASH = "afe725b6a08bc532b2ff5b7b51740fcc"
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", default_owner_id).split()))
+SUDO_USERS = int("1476130628")
